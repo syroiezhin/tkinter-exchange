@@ -1,5 +1,5 @@
 from tkinter import Label
-def show_message(label1, root, show_label2 = True):
+def show_message(label1, root):
     show_label2 = getattr(root, "show_label2", True)
     if show_label2:
         label1.config(text="I change the contents of Label by calling file2.")
